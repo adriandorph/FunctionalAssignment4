@@ -23,4 +23,7 @@ let remove (key:'a) (n:uint32) (s:MultiSet<'a>) =
 
 let removeSingle (key:'a) (s:MultiSet<'a>) = Map.add key (if (numItems key s) = 0u then 0u else (numItems key s) - 1u) s
 
-let fold (f:('a -> 'b -> uint32 -> 'a)) (a:'a) (s:MultiSet<'b>) : 'a = Map.fold
+let fold (f:('a -> 'b -> uint32 -> 'a)) (a:'a) (s:MultiSet<'b>) : 'a = Map.fold f a s
+
+let foldBack (f:('a -> uint32 -> 'b -> 'b)) (s:MultiSet<'a>) (b:'b) : 'b = Map.foldBack f s b
+
