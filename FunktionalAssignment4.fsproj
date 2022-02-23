@@ -7,6 +7,8 @@
     <Compile Include="MultiSet.fsi"/>
     <Compile Include="Rational.fsi"/>
     <Compile Include="MultiSet.fs"/>
+    <Compile Include="Dictionary.fsi"/>
+    <Compile Include="Dictionary.fs"/>
     <Compile Include="Rational.fs"/>
     <Compile Include="Program.fs"/>
   </ItemGroup>
