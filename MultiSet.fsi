@@ -14,3 +14,8 @@ type MultiSet<'a> when 'a: comparison = Map<'a, uint32>
     val foldBack : ('a -> uint32 -> 'b -> 'b) -> MultiSet<'a> -> 'b -> 'b
     val ofList : 'a list -> MultiSet<'a>
     val toList : MultiSet<'a> -> 'a list
+    val map : ('a -> 'b) -> MultiSet<'a> -> MultiSet<'b>
+    val union : MultiSet<'a> -> MultiSet<'a> -> MultiSet<'a>
+    val sum : MultiSet<'a> -> MultiSet<'a> -> MultiSet<'a>
+    val subtract : MultiSet<'a> -> MultiSet<'a> -> MultiSet<'a> 
+    val intersection : MultiSet<'a> -> MultiSet<'a> -> MultiSet<'a>
