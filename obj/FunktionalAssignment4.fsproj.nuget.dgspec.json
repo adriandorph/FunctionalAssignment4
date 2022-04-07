@@ -1,27 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adrian/Documents/ITU/4. Semester/Funktionel Programmering/Assignments/FunktionalAssignment4/FunktionalAssignment4.fsproj": {}
+    "C:\\Users\\AMBre\\RiderProjects\\FunktionalAssignment4\\FunktionalAssignment4.fsproj": {}
   },
   "projects": {
-    "/Users/adrian/Documents/ITU/4. Semester/Funktionel Programmering/Assignments/FunktionalAssignment4/FunktionalAssignment4.fsproj": {
+    "C:\\Users\\AMBre\\RiderProjects\\FunktionalAssignment4\\FunktionalAssignment4.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrian/Documents/ITU/4. Semester/Funktionel Programmering/Assignments/FunktionalAssignment4/FunktionalAssignment4.fsproj",
+        "projectUniqueName": "C:\\Users\\AMBre\\RiderProjects\\FunktionalAssignment4\\FunktionalAssignment4.fsproj",
         "projectName": "FunktionalAssignment4",
-        "projectPath": "/Users/adrian/Documents/ITU/4. Semester/Funktionel Programmering/Assignments/FunktionalAssignment4/FunktionalAssignment4.fsproj",
-        "packagesPath": "/Users/adrian/.nuget/packages/",
-        "outputPath": "/Users/adrian/Documents/ITU/4. Semester/Funktionel Programmering/Assignments/FunktionalAssignment4/obj/",
+        "projectPath": "C:\\Users\\AMBre\\RiderProjects\\FunktionalAssignment4\\FunktionalAssignment4.fsproj",
+        "packagesPath": "C:\\Users\\AMBre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AMBre\\RiderProjects\\FunktionalAssignment4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adrian/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\AMBre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+          "https://nuget.pkg.github.com/jesper-bengtson/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -37,7 +39,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[5.0.0-beta.*, )",
+              "version": "[6.0.2, )",
               "generatePathProperty": true
             }
           },
@@ -56,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.3.21202.5/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
